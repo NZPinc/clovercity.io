@@ -1,0 +1,5 @@
+Order deny,allow
+Deny from all
+<FilesMatch "db_community\.php|db_longpoll\.php|db_messages\.php|db_users\.php">
+  Allow from all
+</FilesMatch>
